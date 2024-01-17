@@ -1,0 +1,123 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+@media(min-width: 1440px){
+	.container{
+		max-width: 1140px;
+	}
+}
+@media(max-width: 767px){
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+}
+@media(max-width: 1440px){
+	html,body{
+		font-size: 14px;
+	}
+}
+@media(max-width: 1366px){
+	html,body{
+		font-size: 13px;
+	}
+}
+@media(max-width: 1280px){
+	html,body{
+		font-size: 12px;
+	}
+}
+@media(max-width: 1024px){
+	html,body{
+		font-size: 10px;
+	}
+}
+@media(max-width: 767px){
+	html,body{
+		font-size: 14px;
+	}
+	.sec .content_box h3{
+	    font-size: 2rem !important;
+	}
+	.sec .content_box ul li{
+	    font-size: 1.25rem !important;
+	}
+	.sec .content_box ul li:after{
+	    width: 6px !important;
+	    height: 6px !important;
+	    top: .5rem !important;
+	}
+	.sec .content_box img{
+	    width: 50%;
+	    margin: auto;
+	    margin-top: 1rem;
+	}
+	.sec .content_box p{
+	    font-size: 1.25rem;
+	}
+	.sec_4 .content_box h3{
+	    display: block;
+	}
+	.sec_4 .content_box h3 img{
+	    display: block;
+	    width: 100%;
+	    margin: 0;
+	    margin-top: 1rem;
+	}
+	.sec_12 .content_box img{
+	    width: 100%;
+	}
+	.sec_13 .content_box{
+	    padding: 5rem 0;
+	}
+	.sec_13 .content_box .pink_box{
+	    padding: 2rem;
+	    display: block;
+	}
+	.sec_13 .content_box .pink_box img{
+	    display: block;
+	    margin: auto;
+	    margin-bottom: 1rem;
+	}
+	.sec_13 .content_box .pink_box .text{
+	    width: 100%;
+	    font-size: 1.25rem;
+	    padding: 0;
+	}
+	.sec_13 .content_box .purple_box{
+	    padding: 2rem;
+	    display: block;
+	}
+	.sec_13 .content_box .purple_box img{
+	    display: block;
+	    margin: auto;
+	    margin-bottom: 1rem;
+	}
+	.sec_13 .content_box .purple_box .text{
+	    width: 100%;
+	    font-size: 1.25rem;
+	    padding: 0;
+	}
+	.sec_14 .content_box .pink_box,.sec_14 .content_box .purple_box{
+		width: 100%;
+	}
+	.sec_7 .content_box ul li span {
+	    min-width: 7.5rem;
+	}
+	.sec_15 .content_box h3{
+	    display: block;
+	    min-height: auto;
+	    border: 0;
+	    border-bottom: 3px solid #B71E42;
+	    padding: 2rem .5rem;
+	    margin-bottom: 2rem;
+	}
+	.sec_15 .content_box .flexer p{
+	    font-size: 1.25rem;
+	}
+}
